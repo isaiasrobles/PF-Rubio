@@ -20,7 +20,7 @@
 }
 
 .container {
-    background-color: grey;
+    color: grey;
     display: flex;
     justify-content: space-evenly;
 }
@@ -35,9 +35,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-100%, -200%);
+    transform: translate(-90%, -200%);
     font-family: "Roboto Mono", monospace;
-    font-size: 300%;
+    font-size: 400%;
     color: black;
 }
 
@@ -46,3 +46,44 @@ img {
     
 }
 
+.ventas {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transition: all 3s;
+
+}
+
+.ventauno {
+    width: 40%;
+    height: 40%;
+    
+    
+}
+
+.ventados {
+    width: 33%;
+    height: 33%;
+    
+}
+
+.ventatres {
+    width: 40%;
+    height: 80%;
+}
+
+.venta:hover {
+    transform: scale(1.1) translateY(-40px);
+}
+
+.logo {
+    animation:slide-in-blurred-top .6s cubic-bezier(.23,1.000,.32,1.000) both;
+    animation-delay: 1.5s;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+ @keyframes slide-in-blurred-top{0%{transform:translateY(-1000px) scaleY(2.5) scaleX(.2);transform-origin:50% 0;filter:blur(40px);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avisos {
+    text-align: center;
+    background-color: black;
+    color: white;
+    }
+
+.logo {
+        font-family: "Lobster", sans-serif;
+        text-align: center;
+        }
+
+.logo {
+            animation:slide-in-blurred-top .6s cubic-bezier(.23,1.000,.32,1.000) both;
+            animation-delay: 1.5s;
+            }      
+
+.container {
+            color: grey;
+            display: flex;
+            justify-content: space-evenly;
+            }
+
+a {
+            text-decoration: none;
+            color: gray;
+                }
+
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+.slider-frame h2 {
+    position: absolute;
+    text-align: center;
+    padding: 0 500px;
+    top: 250px;
+    color: white;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+@keyframes slide-in-blurred-top{0%{transform:translateY(-1000px) scaleY(2.5) scaleX(.2);transform-origin:50% 0;filter:blur(40px);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}
