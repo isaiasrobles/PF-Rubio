@@ -104,8 +104,16 @@ a {
     padding: 4rem 0;
 }
 
+.pie {
+    background-color: gray;
+    color: white;
+    padding: 80px;
+}
+
 .pietitulo {
     font-family: "Lobster", sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .pietexto {

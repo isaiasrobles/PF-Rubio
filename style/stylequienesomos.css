@@ -41,6 +41,7 @@ a {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 img {
@@ -54,6 +55,27 @@ img {
     width: 80%;
     color: black;
     -webkit-animation:slide-in-elliptic-bottom-bck .7s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-elliptic-bottom-bck .7s cubic-bezier(.25,.46,.45,.94) both
+}
+
+.pie {
+    background-color: gray;
+    color: white;
+    padding: 80px;
+}
+
+.pietitulo {
+    font-family: "Lobster", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.pietexto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
 }
 
 

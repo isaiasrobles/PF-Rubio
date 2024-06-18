@@ -74,6 +74,27 @@ h2 {
     color: white;
 }
 
+.pie {
+    background-color: gray;
+    color: white;
+    padding: 80px;
+}
+
+.pietitulo {
+    font-family: "Lobster", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.pietexto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
 @keyframes slide {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
