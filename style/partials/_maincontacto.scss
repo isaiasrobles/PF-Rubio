@@ -1,0 +1,24 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    gap: 20rem;
+    -webkit-animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
+
+    .contenedor__contacto {
+        justify-content: flex-start;
+    }
+
+    .contenedor__email {
+        justify-content: flex-end;
+    }
+    
+    .v-line {
+        border-left: thick solid #000;
+        height: 50%;
+        left: 50%;
+        position: absolute;
+    }
+
+}

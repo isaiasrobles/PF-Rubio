@@ -1,0 +1,36 @@
+.contenedor {
+        display: grid;
+        margin: 10%;
+        justify-content: center;
+        padding-left: .25rem;
+        padding-right: .25rem;
+        justify-items: center;
+
+    .title-ayuda {
+        font-family: $fontLobster;
+    }
+
+
+    .marco {
+        border: 1px solid #000;
+        padding: 100px;
+        margin: 10px;
+    }
+
+    .title-pago {
+        text-align: center;
+    }
+
+    .title-cambios {
+        text-align: center;
+    }
+
+    .title-politica {
+        text-align: center;
+    }
+
+    a {
+        color: rgb(13 110 253);
+        text-decoration: underline;
+    }
+}

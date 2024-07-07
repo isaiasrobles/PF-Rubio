@@ -1,0 +1,35 @@
+.pie {
+    background: gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: white;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 4rem 0;
+    background-color: gray;
+    color: white;
+    padding: 80px;
+
+    .pietitulo {
+        font-family: "Lobster", sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pietexto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+    }
+}

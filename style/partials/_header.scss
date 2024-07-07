@@ -1,0 +1,21 @@
+
+
+header {
+    .logo {
+        font-family: "Lobster", sans-serif;
+        text-align: center;
+        animation:slide-in-blurred-top .6s cubic-bezier(.23,1.000,.32,1.000) both;
+        animation-delay: 1.5s;
+    }
+        
+    .container {
+        color: grey;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    a {
+        text-decoration: none;
+        color: gray;
+    }
+}
