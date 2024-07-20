@@ -22,3 +22,33 @@
     }
 
 }
+
+@media screen and (max-width:768px) {
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+        gap: 10rem;
+        -webkit-animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
+        }
+    }
+
+    @media screen and (max-width:420px) {
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+            gap: 2rem;
+            -webkit-animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
+
+            .v-line {
+                border-left: thick solid #000;
+                height: 0px;
+                left: 50%;
+                position: absolute;
+            }
+            }
+        }
